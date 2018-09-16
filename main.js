@@ -1,4 +1,3 @@
-
 var slider={
     jeden:function(){           
       document.getElementById("image").src="1.jpg";

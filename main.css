@@ -1,54 +1,63 @@
 body{
-    margin: 2% 15% 0% 15%;
-    background-image: url("main_image_1.jpg");
+    margin: 2% 10% 0% 5%;
+    background-image: url("background_main.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;;
 }
+
 #navigator{
-    width: 100%;
-    height: 40px;
-    background-color: black;
-    border: 3px solid gold;
-    margin-top: -3%;
+   width: 100%;
+    height: 50px;
+    margin-top: -2%;
+    margin-left: 10%;
 }
 .bookmarks{
     color: aliceblue;
     float: left;
-    width:30%;
+    width:10%;
     height: 100px;
     text-align: center;
     font-size: 30px;
+    padding:2%;
+    margin-top: -1%;
+    text-shadow: 2px 2px #ff0000;
 }
 .bookmarks:hover{
-    color: gold;
+    color: red;
     float: left;
-    width:30%;
+    width:10%;
     height: 100px;
     text-align: center;
     font-size: 30px;
+    text-shadow: 2px 2px aliceblue;
+    
 }
 #image{
     float: initial;
-    width: 50%;
+    width: 60%;
     height: 500px;
-    margin-top: -2%;
-    border: 3px solid gold;
+    margin-top: -6%;
+    border: 3px solid aliceblue;
 }
 button{
     color: aliceblue;
-    background-color: black;
+    background-color: brown;
     border: 1px solid aliceblue;
     padding: 10px;
-    width: 4%;
+    width: 6%;
     float:left;
     margin-left: -2%;
     margin-right: 4%;
     position: relative;
+    margin-top: 1%;
+    
 }
 button:focus{
     color: black;
-    background-color: gold;
+    background-color: aliceblue;
     border: 1px solid aliceblue;
     padding: 10px;
-    width: 4%;
+    width: 6%;
     float:left;
 }
 button:hover{
@@ -56,7 +65,7 @@ button:hover{
     background-color: aliceblue;
     border: 1px solid aliceblue;
     padding: 10px;
-    width: 4%;
+    width: 6%;
     float:left;
 }
 #changer{
@@ -67,70 +76,149 @@ button:hover{
     font-size: 50px;
     float: right;
     color: aliceblue;
+    text-shadow: 2px 2px #ff0000;
 }
 #name{
     color: aliceblue;
     font-size: 70px;
-    margin-top: 2%;
+    margin-top: -8%;
     font-style: oblique;
+    margin-left: 10%;
+    text-shadow: 2px 2px #ff0000;
 }
 #logo{
-    
+    margin-top: 0%;
     width: 100px;
     height: 100px;
     
 }
-#misja{
-    font-family: fantasy;
-    color: aliceblue;
-    text-align: center;
-    font-size: 20px;
-    float: left;
-}
 .nagwek{
     float: left;
-    color: aliceblue;
+    color: gold;
     margin-left: 40%;
     margin-right: 50%;
     font-size: 50px;
+    border: solid 3px gold;
+}
+.ramka_1{
+    font-family: fantasy;
+    color: aliceblue;
+    text-align: center;
+    font-size: 25px;
+    float: left;
+    text-shadow: 4px 4px black;
 }
 .ramka_2{
+
     margin-top: 10%;
-    border: solid 3px azure;
-    height: 200px;
+    border: solid 3px aliceblue;
     width: 50%;
     color: aliceblue;
-    font-size: 20px;
+    font-size: 25px;
     font-family: fantasy;
     margin-right: 50%;
     margin-left: 50%;
-}
-.ramka{
-    margin-top: 2%;
-    border: solid 3px azure;
-    height: 400px;
-    width: 50%;
-    color: aliceblue;
-    font-size: 20px;
-    font-family: fantasy;
-
+    margin-top: 10%;
+    text-shadow: 4px 4px black;
 }
 .ramka_3 {
-    margin-top: 10%;
-    border: solid 3px azure;
-    height: 200px;
+    margin-top: 5%;
+    border: solid 3px aliceblue;
     width: 50%;
     color: aliceblue;
-    font-size: 20px;
+    font-size: 25px;
     font-family: fantasy;
     margin-right: 45%;
-    margin-left: -5%;
+    margin-left: 0%;
+    text-shadow: 4px 4px black;
 }
 #contact_inf{
     float: left;
     color: gold;
     font-size: 30px;
+    display: flex;
+    margin-left: 20%;
 }
 .contact{
     border: solid 3px aliceblue;
 }
+#join, #link, #join_2, #link_2{
+    color: aliceblue;
+    font-size: 30px;
+    float: left;
+    padding: 4%;
+
+}
+#link:hover,#link_2:hover{
+    color: gold;
+    font-size: 30px;
+}
+.mail{
+margin-top: -18%;
+margin-left: 10%;
+widows: 200px;
+height: 200px;
+}
+.tel{
+   margin-top: 9%;
+   margin-right: 10%;
+   color: gold;
+   widows: 200px;
+   height: 200px;
+
+}
+.subtitles{
+    color: aliceblue;
+    float: left;
+    font-size: 30px;
+    margin-top: 15%;
+    text-shadow: 4px 4px black;      
+   
+}
+
+#send{
+float: left;
+margin-left: -20%;
+}
+#call{
+float: left;
+margin-left: -45%;
+}
+#juz{
+    font-size: 30px;
+    color: aliceblue;
+    display: flex;
+    float: left;
+    text-shadow: 4px 4px black;
+    margin-top: 5%;
+}
+#join{
+    float: left;
+    margin-top: 2%;
+    font-size: 30px;
+    text-shadow: 4px 4px black;
+}
+#container{
+    margin-top: 8%;
+}
+#header{
+    font-size: 50px;
+    color: aliceblue;
+    float: left;
+    text-shadow: 4px 4px red;
+}
+#galery{
+    width: 100%;
+    height: 300px;
+    margin-left: 10%;
+    float: left;
+}
+.image_gallery{
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin: 2px 2px 2px 2px;
+    border:solid 3px white;
+    
+}
+

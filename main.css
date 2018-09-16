@@ -1,3 +1,4 @@
+
 body{
     margin: 2% 10% 0% 5%;
     background-image: url("background_main.jpg");
@@ -35,8 +36,7 @@ body{
 #image{
     float: initial;
     width: 60%;
-    height: 500px;
-    margin-top: -6%;
+    margin-top: -4%;
     border: 3px solid aliceblue;
 }
 button{
@@ -105,32 +105,33 @@ button:hover{
     color: aliceblue;
     text-align: center;
     font-size: 25px;
-    float: left;
+    float: inherit;
     text-shadow: 4px 4px black;
+    border: solid 3px aliceblue;
+    width: 50%;
 }
 .ramka_2{
 
-    margin-top: 10%;
+    margin-top: 2%;
     border: solid 3px aliceblue;
     width: 50%;
     color: aliceblue;
     font-size: 25px;
     font-family: fantasy;
-    margin-right: 50%;
-    margin-left: 50%;
-    margin-top: 10%;
     text-shadow: 4px 4px black;
+    float: inherit;
+    margin-left: 50%;
 }
 .ramka_3 {
-    margin-top: 5%;
+    margin-bottom: 2%;
+    margin-top:2%;
     border: solid 3px aliceblue;
     width: 50%;
     color: aliceblue;
     font-size: 25px;
     font-family: fantasy;
-    margin-right: 45%;
-    margin-left: 0%;
     text-shadow: 4px 4px black;
+    float: inherit;
 }
 #contact_inf{
     float: left;
@@ -178,11 +179,11 @@ height: 200px;
 
 #send{
 float: left;
-margin-left: -20%;
+
 }
 #call{
 float: left;
-margin-left: -45%;
+
 }
 #juz{
     font-size: 30px;
@@ -190,11 +191,10 @@ margin-left: -45%;
     display: flex;
     float: left;
     text-shadow: 4px 4px black;
-    margin-top: 5%;
 }
 #join{
     float: left;
-    margin-top: 2%;
+
     font-size: 30px;
     text-shadow: 4px 4px black;
 }
@@ -222,3 +222,6 @@ margin-left: -45%;
     
 }
 
+#container_wpisy{
+    margin-top: 5%;
+}

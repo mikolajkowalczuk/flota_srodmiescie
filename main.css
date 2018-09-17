@@ -178,30 +178,32 @@ height: 200px;
 }
 
 #send{
-float: left;
+float: inherit;
 
 }
 #call{
-float: left;
+margin-top: 25%;
+float: inherit;
+
 
 }
 #juz{
     font-size: 30px;
     color: aliceblue;
     display: flex;
-    float: left;
+    float: inherit;
     text-shadow: 4px 4px black;
+    margin-top: 20%;
 }
 #join{
-    float: left;
-
+    float: inherit;
     font-size: 30px;
     text-shadow: 4px 4px black;
 }
 #container{
     margin-top: 8%;
 }
-#header{
+.header{
     font-size: 50px;
     color: aliceblue;
     float: left;
@@ -215,7 +217,6 @@ float: left;
 }
 .image_gallery{
     width: 300px;
-    height: 300px;
     float: left;
     margin: 2px 2px 2px 2px;
     border:solid 3px white;

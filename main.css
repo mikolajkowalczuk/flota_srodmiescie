@@ -222,6 +222,13 @@ float: inherit;
     border:solid 3px white;
     
 }
+.image_gallery:hover{
+    width: 350px;
+    float: left;
+    margin: 2px 2px 2px 2px;
+    border:solid 3px brown;
+    
+}
 
 #container_wpisy{
     margin-top: 5%;

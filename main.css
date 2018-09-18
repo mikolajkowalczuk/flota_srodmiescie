@@ -233,3 +233,6 @@ float: inherit;
 #container_wpisy{
     margin-top: 5%;
 }
+.border_galerry{
+    border:solid 3px aliceblue;
+}
